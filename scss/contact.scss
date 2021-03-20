@@ -1,0 +1,55 @@
+.contact-content {
+  @include center(980px, 60px auto 0 auto);
+  height: 940px;
+  display: flex;
+  justify-content: space-between;
+
+  .map {
+    width: 400px;
+    height: 732px;
+    display: block;
+
+    h1 {
+      height: 37px;
+      width: 159px;
+      font-family: $font-one;
+      font-size: 30px;
+      border-bottom: solid 2px $black;
+    }
+
+    .image-map {
+      height: 442px;
+      width: 400px;
+      margin-top: 58px;
+      background-image: url(../assets/images/map.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .map-content {
+      height: 161px;
+      width: 400px;
+      margin-top: 34px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 18px;
+      margin-top: 35px;
+
+      p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 18px;
+        line-height: 5px;
+        opacity: 0.6;
+      }
+    }
+  }
+
+  .form {
+    width: 529px;
+    height: 522px;
+    margin-top: 95px;
+    background-color: violet;
+  }
+}
