@@ -1464,6 +1464,8 @@ nav .links .contact {
   width: 290px;
   height: 131px;
   margin-top: 50px;
+  line-height: 18px;
+  letter-spacing: 1.25px;
 }
 .special-content .learnmore-button {
   margin-top: 40px;
@@ -1473,4 +1475,63 @@ nav .links .contact {
   color: #ffffff;
   text-align: center;
   padding-top: 10px;
+}
+
+.blog-content {
+  max-width: 980px;
+  margin: 60px auto 0 auto;
+  height: 1060px;
+}
+.blog-content h1 {
+  width: 106px;
+  height: 40px;
+  font-family: Proxima;
+  font-size: 30px;
+  border-bottom: solid 2px black;
+}
+.blog-content .blog {
+  height: 375px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-content .blog .date {
+  height: 60px;
+  width: 60px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog-content .blog .june {
+  background-image: url(../assets/icons/datejune.png);
+}
+.blog-content .blog .july {
+  background-image: url(../assets/icons/datejuly.png);
+}
+.blog-content .blog .blog-info {
+  width: 900px;
+  min-height: 259px;
+  display: block;
+}
+.blog-content .blog .blog-image {
+  height: 259px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/blog.jpg);
+}
+.blog-content .blog .blog-text {
+  width: 364px;
+  height: 99px;
+  padding-top: 20px;
+}
+.blog-content .blog .blog-text h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  opacity: 0.6;
+}
+.blog-content .blog .blog-text p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  color: #79addc;
 }
