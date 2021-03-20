@@ -1375,8 +1375,7 @@ nav .links .contact {
 .special-content {
   max-width: 980px;
   margin: 60px auto 0 auto;
-  min-height: 830px;
-  background-color: teal;
+  min-height: 910px;
 }
 .special-content .title {
   display: flex;
@@ -1397,11 +1396,9 @@ nav .links .contact {
 .special-content .special {
   width: 545px;
   min-height: 287px;
-  background-color: violet;
   margin-bottom: 60px;
   display: flex;
   justify-content: space-between;
-  background-color: blue;
 }
 .special-content .special .two {
   padding-bottom: 100px;
@@ -1409,7 +1406,6 @@ nav .links .contact {
 .special-content .image {
   width: 199px;
   height: 287px;
-  background-color: yellowgreen;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1423,4 +1419,58 @@ nav .links .contact {
 .special-content .content {
   width: 346px;
   height: 287px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+}
+.special-content .content .title {
+  display: flex;
+}
+.special-content .content h1 {
+  font-family: Proxima;
+  font-size: 30px;
+  width: 180px;
+  height: 37px;
+  border: none;
+  position: absolute;
+}
+.special-content .content .title-bangkok {
+  width: 195px;
+}
+.special-content .content .smaller-border {
+  width: 160px;
+  border-bottom: solid 2px black;
+  position: relative;
+  top: 35px;
+}
+.special-content .content .thailand {
+  width: 180px;
+}
+.special-content .content span {
+  width: 70px;
+  height: 37px;
+  font-family: Proxima;
+  font-size: 20px;
+  position: relative;
+  left: 176px;
+  top: 5px;
+  color: #ff7d38;
+}
+.special-content .content .discount {
+  left: 195px;
+  top: 5px;
+}
+.special-content p {
+  width: 290px;
+  height: 131px;
+  margin-top: 50px;
+}
+.special-content .learnmore-button {
+  margin-top: 40px;
+  margin-left: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
 }
