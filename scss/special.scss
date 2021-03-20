@@ -1,0 +1,67 @@
+.special-content {
+  @include center(980px, 60px auto 0 auto);
+  min-height: 830px;
+  background-color: teal;
+
+  .title {
+    display: flex;
+    h1 {
+      width: 166px;
+      height: 40px;
+      margin-bottom: 43px;
+      font-family: $font-one;
+      font-size: 30px;
+      border-bottom: solid 2px $black;
+    }
+
+    span {
+      margin-left: 5px;
+      font-family: $font-one;
+      font-size: 30px;
+    }
+  }
+
+  .special {
+    width: 545px;
+    min-height: 287px;
+    background-color: violet;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+
+    .two {
+      padding-bottom: 100px;
+    }
+  }
+
+  .image {
+    width: 199px;
+    height: 287px;
+    background-color: yellowgreen;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .barcelona {
+    background-image: url(../assets/images/special-offer-01.jpg);
+  }
+
+  .bangkok {
+    background-image: url(../assets/images/special-offer-02.jpg);
+  }
+
+  .content {
+    width: 346px;
+    height: 287px;
+
+    h1 {
+      span {
+      }
+    }
+
+    p {
+    }
+  }
+}
