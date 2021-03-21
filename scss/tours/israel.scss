@@ -4,14 +4,14 @@
   //   display: block;
 
   .israel-main {
-    @include center(981px, 49px auto 0 auto);
+    // @include center(981px, 49px auto 0 auto);
     height: 413px;
     background-image: linear-gradient($overlay, $overlay),
       url(../assets/tour/tour-01.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
+    // display: flex;
     font-family: $font-one;
     color: $white;
 
@@ -23,8 +23,9 @@
 
     h4 {
       font-size: 30px;
-      padding-top: 375px;
-      margin-left: 100px;
+      padding-top: 275px;
+      text-align: right;
+      padding-right: 15px;
     }
   }
 

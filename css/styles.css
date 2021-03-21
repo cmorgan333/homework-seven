@@ -843,11 +843,13 @@ nav .links .contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-09.jpg);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   .all-tours {
     width: 375;
     flex-direction: column;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 .individual-tours {
@@ -856,14 +858,11 @@ nav .links .contact {
   min-height: 200px;
 }
 .individual-tours .israel-main {
-  max-width: 981px;
-  margin: 49px auto 0 auto;
   height: 413px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-01.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
   font-family: Proxima;
   color: #ffffff;
 }
@@ -874,8 +873,9 @@ nav .links .contact {
 }
 .individual-tours .israel-main h4 {
   font-size: 30px;
-  padding-top: 375px;
-  margin-left: 100px;
+  padding-top: 275px;
+  text-align: right;
+  padding-right: 15px;
 }
 .individual-tours .tour-images {
   max-width: 981px;
@@ -1028,7 +1028,7 @@ nav .links .contact {
 }
 .individual-tours .australia-main h4 {
   font-size: 30px;
-  padding-top: 275px;
+  padding-top: 200px;
   text-align: right;
   padding-right: 15px;
 }
@@ -1079,7 +1079,7 @@ nav .links .contact {
 }
 .individual-tours .newz-main h4 {
   font-size: 30px;
-  padding-top: 275px;
+  padding-top: 200px;
   text-align: right;
   padding-right: 15px;
 }
