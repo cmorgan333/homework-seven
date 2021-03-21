@@ -240,7 +240,7 @@ footer .socials .twitter {
 }
 .booking-form .info-fields .field-two-container {
   max-width: 875px;
-  min-height: 60px;
+  min-height: 50px;
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
@@ -254,7 +254,7 @@ footer .socials .twitter {
   text-indent: 10px;
 }
 .booking-form .info-fields .field-two-container #field-four {
-  width: 540px;
+  max-width: 540px;
   height: 50px;
   border: solid #79addc 1px;
   margin-bottom: 15px;
@@ -325,6 +325,8 @@ footer .socials .twitter {
   padding-right: 135px;
   justify-content: space-around;
   margin-top: 20px;
+  padding-bottom: 25px;
+  background-color: teal;
 }
 .booking-form .people-fields .adult-container {
   width: 200px;
@@ -380,19 +382,17 @@ footer .socials .twitter {
 .booking-form .message-container {
   max-width: 1280px;
   min-height: 200px;
-  margin-top: 25px;
-  margin: 0 auto;
-  text-indent: 10px;
+  background-color: yellow;
 }
-.booking-form .message-container input {
+.booking-form .message-container #message {
   width: 875px;
-  min-height: 200px;
-  margin-top: 20px;
+  height: 200px;
   margin-bottom: 30px;
   border: solid #79addc 1px;
   margin-left: 202px;
+  background-color: violet;
 }
-.booking-form .message-container input ::placeholder {
+.booking-form .message-container #message ::placeholder {
   margin-left: 10px;
 }
 .booking-form .submit-button-container {
@@ -444,11 +444,11 @@ footer .socials .twitter {
     width: 375px;
     display: block;
   }
-  .booking-form .info-fields #field-three {
+  .booking-form .info-fields .field-two-container #field-three {
     width: 375px;
     height: 50px;
   }
-  .booking-form .info-fields #field-four {
+  .booking-form .info-fields .field-two-container #field-four {
     width: 375px;
     height: 50px;
   }
@@ -479,7 +479,7 @@ footer .socials .twitter {
   }
   .booking-form .people-fields {
     width: 375px;
-    min-height: 400px;
+    min-height: 200px;
     display: block;
     margin: 0 auto;
     flex-direction: column;
@@ -495,17 +495,17 @@ footer .socials .twitter {
   .booking-form .people-fields .children-container {
     margin-bottom: 25px;
   }
-  .booking-form .people-fields .rooms-container {
-    margin-bottom: 25px;
+  .booking-form .message-container {
+    margin-left: 0;
   }
-  .booking-form .people-fields input {
-    width: 350px;
+  .booking-form .message-container #message {
+    width: 375px;
     margin-left: 0;
   }
 }
 nav {
   max-width: 980px;
-  height: 60px;
+  min-height: 60px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -521,7 +521,7 @@ nav .logo {
 }
 nav .links {
   width: 525px;
-  height: 42px;
+  min-height: 42px;
   display: flex;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
