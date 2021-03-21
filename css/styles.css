@@ -873,7 +873,7 @@ nav .links .contact {
 }
 .individual-tours .israel-main h4 {
   font-size: 30px;
-  padding-top: 275px;
+  margin-top: 290px;
   text-align: right;
   padding-right: 15px;
 }
@@ -977,7 +977,7 @@ nav .links .contact {
 }
 .individual-tours .usa-main h4 {
   font-size: 30px;
-  padding-top: 275px;
+  padding-top: 290px;
   text-align: right;
   padding-right: 15px;
 }
@@ -1028,7 +1028,7 @@ nav .links .contact {
 }
 .individual-tours .australia-main h4 {
   font-size: 30px;
-  padding-top: 200px;
+  padding-top: 290px;
   text-align: right;
   padding-right: 15px;
 }
@@ -1048,18 +1048,19 @@ nav .links .contact {
 }
 
 @media only screen and (max-width: 700px) {
-  .tour-images {
+  .individual-tours .australia-main h1 {
+    font-size: 50px;
+  }
+  .individual-tours .tour-images {
     padding-left: 10px;
     padding-right: 10px;
   }
-
-  .tour-text {
+  .individual-tours .tour-text {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 100px;
   }
-
-  .learnmore-button {
+  .individual-tours .learnmore-button {
     margin-top: 25px;
   }
 }
@@ -1079,7 +1080,7 @@ nav .links .contact {
 }
 .individual-tours .newz-main h4 {
   font-size: 30px;
-  padding-top: 200px;
+  padding-top: 290px;
   text-align: right;
   padding-right: 15px;
 }
@@ -1099,18 +1100,19 @@ nav .links .contact {
 }
 
 @media only screen and (max-width: 700px) {
-  .tour-images {
+  .individual-tours .newz-main h1 {
+    font-size: 50px;
+  }
+  .individual-tours .tour-images {
     padding-left: 10px;
     padding-right: 10px;
   }
-
-  .tour-text {
+  .individual-tours .tour-text {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 100px;
   }
-
-  .learnmore-button {
+  .individual-tours .learnmore-button {
     margin-top: 25px;
   }
 }
@@ -1130,7 +1132,7 @@ nav .links .contact {
 }
 .individual-tours .france-main h4 {
   font-size: 30px;
-  padding-top: 275px;
+  padding-top: 290px;
   text-align: right;
   padding-right: 15px;
 }
@@ -1181,7 +1183,7 @@ nav .links .contact {
 }
 .individual-tours .egypt-main h4 {
   font-size: 30px;
-  padding-top: 275px;
+  padding-top: 290px;
   text-align: right;
   padding-right: 15px;
 }
@@ -1232,7 +1234,7 @@ nav .links .contact {
 }
 .individual-tours .japan-main h4 {
   font-size: 30px;
-  padding-top: 275px;
+  padding-top: 290px;
   text-align: right;
   padding-right: 15px;
 }
@@ -1283,7 +1285,7 @@ nav .links .contact {
 }
 .individual-tours .canada-main h4 {
   font-size: 30px;
-  padding-top: 275px;
+  padding-top: 290px;
   text-align: right;
   padding-right: 15px;
 }
@@ -1334,7 +1336,7 @@ nav .links .contact {
 }
 .individual-tours .uae-main h4 {
   font-size: 30px;
-  padding-top: 275px;
+  padding-top: 290px;
   text-align: right;
   padding-right: 15px;
 }
