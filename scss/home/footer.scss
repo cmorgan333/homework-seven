@@ -65,11 +65,10 @@ footer {
 @media only screen and (max-width: 1100px) {
   footer {
     width: 375px;
-    // display: flex;
     display: block;
+
     padding-top: 15px;
-    // justify-content: space-between;
-    // align-items: center;
+    // margin: 0 auto;
 
     .copywright {
       margin-left: 90px;
