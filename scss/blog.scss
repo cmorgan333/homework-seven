@@ -15,6 +15,7 @@
     margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
+    padding-left: 10px;
 
     .date {
       height: 60px;
@@ -36,9 +37,11 @@
       width: 900px;
       min-height: 259px;
       display: block;
+      padding-right: 10px;
     }
 
     .blog-image {
+      max-width: 900px;
       height: 259px;
       background-position: center;
       background-size: cover;
@@ -48,7 +51,7 @@
 
     .blog-text {
       width: 364px;
-      height: 99px;
+      min-height: 99px;
       padding-top: 20px;
 
       h5 {

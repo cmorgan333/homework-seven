@@ -1,13 +1,14 @@
 .contact-content {
   @include center(980px, 60px auto 0 auto);
-  height: 940px;
+  min-height: 910px;
   display: flex;
   justify-content: space-between;
 
   .map {
     width: 400px;
-    height: 732px;
+    min-height: 732px;
     display: block;
+    padding-left: 10px;
 
     h1 {
       height: 37px;
@@ -19,7 +20,7 @@
 
     .image-map {
       height: 442px;
-      width: 400px;
+      max-width: 400px;
       margin-top: 58px;
       background-image: url(../assets/images/map.png);
       background-position: center;
@@ -28,7 +29,7 @@
     }
 
     .map-content {
-      height: 161px;
+      min-height: 161px;
       width: 400px;
       margin-top: 34px;
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
@@ -47,9 +48,92 @@
   }
 
   .form {
-    width: 529px;
-    height: 522px;
+    max-width: 529px;
+    min-height: 622px;
     margin-top: 95px;
-    background-color: violet;
+    // padding-left: 30px;
+    padding-right: 10px;
+
+    input {
+      width: 529px;
+      height: 60px;
+      background-color: #f5f5f5;
+      margin-bottom: 20px;
+      text-indent: 21px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 16px;
+      border: none;
+    }
+
+    .message {
+      width: 529px;
+      height: 199px;
+      margin-bottom: 20px;
+    }
+
+    .readmore-button {
+      width: 167px;
+      height: 60px;
+      background-color: $blue;
+      margin: 0 auto;
+      text-align: center;
+      align-items: center;
+      //   margin-top: 25px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 16px;
+      color: white;
+      margin-left: 0;
+      padding-top: 20px;
+    }
+  }
+}
+
+// ==========RESPONSIVENESS===============//
+
+@media only screen and (max-width: 1030px) {
+  .contact-content {
+    width: 375px;
+    flex-direction: column;
+    // margin: 0 auto;
+    // padding-right: 100px;
+    margin-top: 60px;
+    margin-left: 0;
+
+    .map {
+      padding-left: 60px;
+      padding-right: 30px;
+
+      .image-map {
+        width: 400px;
+      }
+    }
+
+    .form {
+      padding-left: 60px;
+      padding-right: 30px;
+      margin: 0 auto;
+      padding-top: 20px;
+
+      input {
+        width: 375px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+
+      .message {
+        width: 375px;
+      }
+    }
+
+    .readmore-button {
+    }
+  }
+
+  .footer {
+    margin-top: 25px;
+    position: relative;
+    top: 25px;
   }
 }

@@ -119,3 +119,11 @@
     padding-top: 10px;
   }
 }
+
+// =========RESPONSIVENESS==============//
+@media only screen and (max-width: 1000px) {
+  .special {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
