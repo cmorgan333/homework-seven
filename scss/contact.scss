@@ -95,26 +95,32 @@
 @media only screen and (max-width: 1030px) {
   .contact-content {
     width: 375px;
-    flex-direction: column;
+    // flex-direction: column;
     // margin: 0 auto;
     // padding-right: 100px;
-    margin-top: 60px;
-    // margin-left: 0;
-    margin-left: 60px;
+    padding-top: 60px;
+    margin-left: 0;
+    display: block;
+    // margin-left: 60px;
+    // justify-content: center;
+    // align-items: center;
+    margin: 0 auto;
 
     .map {
-      padding-left: 60px;
-      padding-right: 30px;
+      width: 375px;
+      padding-left: 0;
+      // padding-right: 30px;
 
       .image-map {
-        width: 400px;
+        width: 375px;
       }
     }
 
     .form {
-      padding-left: 60px;
-      padding-right: 30px;
-      margin: 0 auto;
+      width: 375px;
+      // padding-left: 60px;
+      // padding-right: 30px;
+      // margin: 0 auto;
       padding-top: 20px;
 
       input {
@@ -126,9 +132,6 @@
       .message {
         width: 375px;
       }
-    }
-
-    .readmore-button {
     }
   }
 

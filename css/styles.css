@@ -1627,21 +1627,20 @@ nav .links .contact {
 @media only screen and (max-width: 1030px) {
   .contact-content {
     width: 375px;
-    flex-direction: column;
-    margin-top: 60px;
-    margin-left: 60px;
+    padding-top: 60px;
+    margin-left: 0;
+    display: block;
+    margin: 0 auto;
   }
   .contact-content .map {
-    padding-left: 60px;
-    padding-right: 30px;
+    width: 375px;
+    padding-left: 0;
   }
   .contact-content .map .image-map {
-    width: 400px;
+    width: 375px;
   }
   .contact-content .form {
-    padding-left: 60px;
-    padding-right: 30px;
-    margin: 0 auto;
+    width: 375px;
     padding-top: 20px;
   }
   .contact-content .form input {
@@ -1652,6 +1651,7 @@ nav .links .contact {
   .contact-content .form .message {
     width: 375px;
   }
+
   .footer {
     margin-top: 25px;
     position: relative;
