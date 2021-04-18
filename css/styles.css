@@ -124,7 +124,7 @@ p {
 }
 footer {
   width: 100%;
-  min-height: 100px;
+  height: 100px;
   background-color: #79addc;
 }
 footer .footer-content {
@@ -614,18 +614,18 @@ nav .links .contact {
 
 .about-content {
   max-width: 980px;
-  min-height: 840px;
+  min-height: 200px;
   margin: 0 auto;
-  margin-top: 60px;
-  margin-bottom: 70px;
+  margin-top: 179px;
+  margin-bottom: 230px;
 }
 .about-content .about-text {
-  min-height: 210px;
+  min-height: 200px;
   max-width: 980px;
 }
 .about-content h1 {
   width: 150px;
-  height: 40px;
+  height: 60px;
   font-family: ProximaNova;
   font-size: 40px;
   border-bottom: solid black 2px;
@@ -637,9 +637,9 @@ nav .links .contact {
   letter-spacing: 1.6px;
 }
 .about-content .client-content {
-  min-height: 460px;
+  min-height: 200px;
   max-width: 676px;
-  margin-top: 50px;
+  margin-top: 101px;
 }
 .about-content .client-content h3 {
   width: 240px;
@@ -649,7 +649,7 @@ nav .links .contact {
   border-bottom: solid black 2px;
 }
 .about-content .client-content .client-one {
-  min-height: 150px;
+  height: 150px;
   width: 676px;
   display: flex;
 }
@@ -688,7 +688,7 @@ nav .links .contact {
   min-height: 150px;
   width: 676px;
   display: flex;
-  margin-top: 25px;
+  margin-top: 37px;
   padding-bottom: 50px;
 }
 .about-content .client-content .client-two .client-image {
@@ -1376,7 +1376,7 @@ nav .links .contact {
 }
 .special-content {
   max-width: 980px;
-  margin: 60px auto 0 auto;
+  margin: 150px auto 85px auto;
   min-height: 910px;
 }
 .special-content .title {
@@ -1491,7 +1491,7 @@ nav .links .contact {
 }
 .blog-content {
   max-width: 980px;
-  margin: 60px auto 0 auto;
+  margin: 85px auto 0 auto;
   height: 1060px;
 }
 .blog-content h1 {
@@ -1553,7 +1553,7 @@ nav .links .contact {
 
 .contact-content {
   max-width: 980px;
-  margin: 60px auto 0 auto;
+  margin: 185px auto 50px auto;
   min-height: 910px;
   display: flex;
   justify-content: space-between;

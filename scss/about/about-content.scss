@@ -1,18 +1,18 @@
 .about-content {
   max-width: 980px;
-  min-height: 840px;
+  min-height: 200px;
   margin: 0 auto;
-  margin-top: 60px;
-  margin-bottom: 70px;
+  margin-top: 179px;
+  margin-bottom: 230px;
 
   .about-text {
-    min-height: 210px;
+    min-height: 200px;
     max-width: 980px;
   }
 
   h1 {
     width: 150px;
-    height: 40px;
+    height: 60px;
     font-family: ProximaNova;
     font-size: 40px;
     border-bottom: solid $black 2px;
@@ -29,9 +29,9 @@
   //   =====CLIENT QUOTES SECTION=========//
 
   .client-content {
-    min-height: 460px;
+    min-height: 200px;
     max-width: 676px;
-    margin-top: 50px;
+    margin-top: 101px;
 
     h3 {
       width: 240px;
@@ -42,7 +42,7 @@
     }
 
     .client-one {
-      min-height: 150px;
+      height: 150px;
       width: 676px;
       display: flex;
 
@@ -89,7 +89,7 @@
       min-height: 150px;
       width: 676px;
       display: flex;
-      margin-top: 25px;
+      margin-top: 37px;
       padding-bottom: 50px;
 
       .client-image {
