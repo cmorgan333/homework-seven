@@ -30,7 +30,7 @@
 
   .client-content {
     min-height: 200px;
-    max-width: 676px;
+    max-width: 900px;
     margin-top: 101px;
 
     h3 {
@@ -42,8 +42,8 @@
     }
 
     .client-one {
-      height: 150px;
-      width: 676px;
+      min-height: 150px;
+      max-width: 800px;
       display: flex;
 
       .client-image {
@@ -59,7 +59,7 @@
       }
 
       .client-quote {
-        max-width: 416px;
+        width: 416px;
         min-height: 150px;
         padding-left: 20px;
         position: relative;
@@ -87,7 +87,7 @@
 
     .client-two {
       min-height: 150px;
-      width: 676px;
+      max-width: 800px;
       display: flex;
       margin-top: 37px;
       padding-bottom: 50px;
@@ -105,7 +105,7 @@
       }
 
       .client-quote {
-        max-width: 416px;
+        width: 416px;
         min-height: 150px;
         padding-left: 20px;
         position: relative;
@@ -133,15 +133,37 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   .about-content {
     padding: 20px;
-  }
+    display: block;
+    // margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    flex-direction: column;
 
-  .client-content {
-    padding: 20px;
-  }
-  .client-quote {
-    width: 200px;
+    .client-content {
+      padding: 20px;
+      display: block;
+      // margin-left: 15px;
+      margin-right: 15px;
+      margin: 0 auto;
+
+      .client-one {
+        display: block;
+        // padding-left: 20px;
+      }
+
+      .client-quote {
+        width: 300px;
+        margin-top: 25px;
+        text-align: left;
+      }
+      .client-two {
+        display: block;
+        // padding-left: 20px;
+      }
+    }
   }
 }

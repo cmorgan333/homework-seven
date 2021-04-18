@@ -124,12 +124,12 @@ p {
 }
 footer {
   width: 100%;
-  height: 100px;
+  min-height: 100px;
   background-color: #79addc;
 }
 footer .footer-content {
-  width: 1000px;
-  height: 60px;
+  max-width: 1000px;
+  min-height: 60px;
   margin: 0 auto;
   padding-top: 50px;
   display: flex;
@@ -184,9 +184,17 @@ footer .footer-content .socials .twitter {
 
 @media only screen and (max-width: 1100px) {
   footer {
-    width: 375px;
     display: block;
     padding-top: 15px;
+  }
+  footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  footer .footer-content .icon {
+    margin-left: 15px;
   }
   footer .copywright {
     margin-left: 90px;
@@ -638,7 +646,7 @@ nav .links .contact {
 }
 .about-content .client-content {
   min-height: 200px;
-  max-width: 676px;
+  max-width: 900px;
   margin-top: 101px;
 }
 .about-content .client-content h3 {
@@ -649,8 +657,8 @@ nav .links .contact {
   border-bottom: solid black 2px;
 }
 .about-content .client-content .client-one {
-  height: 150px;
-  width: 676px;
+  min-height: 150px;
+  max-width: 800px;
   display: flex;
 }
 .about-content .client-content .client-one .client-image {
@@ -664,7 +672,7 @@ nav .links .contact {
   background-position: center;
 }
 .about-content .client-content .client-one .client-quote {
-  max-width: 416px;
+  width: 416px;
   min-height: 150px;
   padding-left: 20px;
   position: relative;
@@ -686,7 +694,7 @@ nav .links .contact {
 }
 .about-content .client-content .client-two {
   min-height: 150px;
-  width: 676px;
+  max-width: 800px;
   display: flex;
   margin-top: 37px;
   padding-bottom: 50px;
@@ -702,7 +710,7 @@ nav .links .contact {
   background-position: center;
 }
 .about-content .client-content .client-two .client-quote {
-  max-width: 416px;
+  width: 416px;
   min-height: 150px;
   padding-left: 20px;
   position: relative;
@@ -723,17 +731,31 @@ nav .links .contact {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   .about-content {
     padding: 20px;
+    display: block;
+    margin-right: 15px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    flex-direction: column;
   }
-
-  .client-content {
+  .about-content .client-content {
     padding: 20px;
+    display: block;
+    margin-right: 15px;
+    margin: 0 auto;
   }
-
-  .client-quote {
-    width: 200px;
+  .about-content .client-content .client-one {
+    display: block;
+  }
+  .about-content .client-content .client-quote {
+    width: 300px;
+    margin-top: 25px;
+    text-align: left;
+  }
+  .about-content .client-content .client-two {
+    display: block;
   }
 }
 .tours-content header {
