@@ -36,7 +36,7 @@ p {
   src: url(fonts/Lato/Lato-lightItalic.ttf);
 }
 .hero {
-  max-width: 1280px;
+  width: 100%;
   height: 500px;
   padding-top: 20px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/hero.jpg);
@@ -123,38 +123,41 @@ p {
   }
 }
 footer {
-  max-width: 1280px;
+  width: 100%;
   min-height: 100px;
   background-color: #79addc;
+}
+footer .footer-content {
+  width: 1000px;
+  height: 60px;
   margin: 0 auto;
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer .icon {
+footer .footer-content .icon {
   width: 92px;
   height: 42px;
-  margin-left: 150px;
   background-image: url(../assets/icons/logo-white.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-footer .copywright {
+footer .footer-content .copywright {
   width: 230px;
   height: 14px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 12px;
   color: #ffffff;
 }
-footer .socials {
+footer .footer-content .socials {
   width: 121px;
   min-height: 23px;
-  margin-right: 100px;
   display: flex;
   justify-content: space-around;
 }
-footer .socials .facebook {
+footer .footer-content .socials .facebook {
   height: 23px;
   width: 23px;
   background-image: url(../assets/icons/facebook@2x.png);
@@ -162,7 +165,7 @@ footer .socials .facebook {
   background-size: cover;
   background-repeat: no-repeat;
 }
-footer .socials .instagram {
+footer .footer-content .socials .instagram {
   height: 23px;
   width: 23px;
   background-image: url(../assets/icons/instagram@2x.png);
@@ -170,7 +173,7 @@ footer .socials .instagram {
   background-size: cover;
   background-repeat: no-repeat;
 }
-footer .socials .twitter {
+footer .footer-content .socials .twitter {
   height: 23px;
   width: 23px;
   background-image: url(../assets/icons/twitter@2x.png);
@@ -572,7 +575,7 @@ nav .links .contact {
 }
 
 .black {
-  max-width: 980px;
+  max-width: 1280px;
   height: 60px;
   margin: 0 auto;
   display: flex;
